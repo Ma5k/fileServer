@@ -1,0 +1,76 @@
+.box {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    border: 10px;
+}
+
+.nav {
+    height: 60px;
+    width: 1000px;
+    background-color: rgb(51, 111, 201);
+}
+
+.main {
+    height: 540px;
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+.list {
+    /*文本不可被选中*/
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+    overflow-x: auto;
+    overflow-y: auto;
+    float: left;
+    height: 540px;
+    width: 300px;
+    background-color: rgb(251, 255, 227);
+}
+
+.list ul{
+    padding-left: 0px;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.list li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.list li:hover{
+    background-color: rgb(221, 224, 200);
+}
+
+.butt {
+    float: left;
+    height: 40px;
+    width: 700px;
+}
+
+.butt button {
+    background-color: rgb(192, 240, 243);
+    font-size: 25px;
+}
+
+.show {
+    float: left;
+    height: 500px;
+    width: 700px;
+    background-color: rgb(231, 233, 233);
+}
+#info{
+    height: 100px;
+    width: 700px;
+}
+#text{
+    height: 400px;
+    width: 700px;
+    resize: none;
+}
